@@ -4,7 +4,7 @@ A command line program, that reads stdin and removes all lines contained the bla
 
 Note that it may also be used as a whitelist with the -w flag.
 
-Useful together with [dmenu]{http://tools.suckless.org/dmenu/}
+Useful together with [dmenu](http://tools.suckless.org/dmenu/)
 
 ## Installation
 
