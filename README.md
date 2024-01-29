@@ -4,27 +4,27 @@ A command line program, that reads stdin and removes all lines contained the bla
 
 Note that it may also be used as a whitelist with the -w flag.
 
-Useful together with dmenu
+Useful together with [dmenu]{http://tools.suckless.org/dmenu/}
 
 ## Installation
 
 ```
-    make install
+make install
 ```
 ## Usage
 
 ```
-    cat <list> | blacklist <blacklist-file>
+cat <list> | blacklist <blacklist-file>
 ```
 For more info, see 
 ```
-    blacklist -h
+blacklist -h
 ```
 
 ## Example
 
 ```
-    find ~/Articles -name '*pdf'
-         | blacklist ~/Articles/blacklist \
-         | dmenu
+find ~/Articles -name '*pdf'
+        | blacklist ~/Articles/blacklist \
+        | dmenu
 ```
